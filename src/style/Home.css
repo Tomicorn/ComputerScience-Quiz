@@ -1,0 +1,41 @@
+.Home {
+  height: 100%;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.main {
+  color: black;
+  width: 50%;
+  height: min-content;
+  min-height: 500px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  box-shadow: 5px 5px 8px #706f6f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.repo-link {
+  color: blue;
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    min-height: 200px;
+  }
+}
